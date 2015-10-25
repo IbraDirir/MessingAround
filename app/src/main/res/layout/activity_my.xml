@@ -10,20 +10,24 @@
     android:gravity="center|top"
     tools:context=".MyActivity">
 
-    <TextView
-        android:text="@string/hello_world"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="world class android developer"
-        android:layout_weight="1"/>
-<TextView
+
+<Button
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text=" i am best Android Developer"
-    android:layout_weight="1"/>
+    android:text="1stButton"
+    android:textSize="16sp"/>
+
+
+<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2ndButton"
+        android:textSize="16sp"/>/>
+<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3rdButton"
+        android:textSize="16sp"/>/>
+
 
 </LinearLayout>
